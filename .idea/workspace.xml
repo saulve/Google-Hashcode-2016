@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="424e7a4f-8581-41de-bb7d-420d2dc29695" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Google-Hashcode-2016.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PictureGrid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/input/logo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.in" afterPath="" />
     </list>
     <ignored path="Google-Hashcode-2016.iws" />
     <ignored path=".idea/workspace.xml" />
