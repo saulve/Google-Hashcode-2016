@@ -44,5 +44,6 @@ public class Algorithms {
         picture.printGrid();
         picture.writeResults();
     }
+    //check
 
 }
