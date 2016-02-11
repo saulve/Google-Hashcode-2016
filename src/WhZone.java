@@ -1,8 +1,12 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
 
 public class WhZone {
 	private Warehouse warehouse;
-	private ArrayList<Order> orders = new ArrayList<>();
+	private List<Order> orders = new ArrayList<>();
 	
 	public WhZone(){
 		
@@ -17,7 +21,13 @@ public class WhZone {
 	}
 	
 	public void assignOrder(Order order){
-		orders.add(order);
+		
+		
+	}
+	public void sortOrdersByWeight() {
+		Collections.sort(orders, Order.OrderWeightComparator);
+			
+			    	
 	}
 
 }
