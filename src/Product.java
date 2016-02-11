@@ -11,6 +11,15 @@ public class Product {
     }
 
     public void reserve(){
+        reserved = true;
+    }
+
+    public int getName() {
+        return name;
+    }
+
+    public boolean isReserved(){
+        return reserved;
 
     }
 }

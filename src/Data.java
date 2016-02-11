@@ -6,7 +6,4 @@ public class Data {
     private int droneNum;
     private int turns;
     private int droneMaxLoad;
-    private List<Integer> productWeights = new ArrayList<Integer>;
-    private List<Coordinates> warehouses = new ArrayList<Coordinates>;
-    private List<Coordinates>
 }
