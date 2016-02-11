@@ -81,4 +81,13 @@ public class Data {
     public int getWeight(int itemName){
         return productTypeWeights[itemName];
     }
+
+    public int getOrderWeight(int orderNum){
+        int weight = 0;
+        List<Product> requires = orders.get(orderNum).getRequires();
+        for(Product p: requires){
+            weight+= getWeight(p.getName());
+        }
+        return weight;
+    }
 }
